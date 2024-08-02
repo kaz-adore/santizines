@@ -1,4 +1,13 @@
 *{
+    margin: 0.1vh;
+	margin-top:0.4vh;
+    padding: 2;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+*{
   font-family:Arial;
   background-color:#f1fbff;
   font-style:italic;
@@ -8,7 +17,6 @@
   background-attachment: fixed;
   background-position: top left, top right;
   }
-
 nav{
     box-shadow: inset 0 0 0 1000px rgba(193, 235, 255, 1);
 	background-color:#c1ebff;
@@ -36,7 +44,6 @@ nav a:link{
    	background-color:#c1ebff;
 	padding-top:2px;
 	padding-bottom:2px;
-	padding-left:2px;
 	}
 nav a:visited{
    color:black;
@@ -58,7 +65,7 @@ nav a:active{
    	background-color:#c1ebff;
 	overflow:hide;
 	}
-a[href^='about.html']{
+a[href^='index.html']{
 	padding-right:34%;
 	}
 a[href^='works.html']{
@@ -73,6 +80,33 @@ a[href^='events.html']{
 a[href^='contact.html']{
 	padding-right:13.5%;
 	}
+.landing img{
+	display:flex;
+	align-content:center;
+	justify-content:center;
+	min-width:30vw;
+	margin:-10vh 50% 2px 28%;
+	width: 45%;
+	height:45%;
+	object-fit: cover;
+}
+.landing p{
+	display:flex;
+	text-align:center;
+	justify-content:center;
+	font-size:200%;
+	margin-bottom:10px;
+	margin-top:-1vw;
+	width:100%;
+	}
+#lead{
+	margin-top:-2vw;
+}
+}
+.longman{
+	min-height:1vh;
+	max-height:99vh;
+}
 .salad_left{
 	border:#555e49 solid 8px;
 	border-radius:10px;
@@ -139,7 +173,7 @@ img[src^='img/cyclops 1987 cover.png']{
 	min-width:30vw;
 	margin:0 50% 2px 36%
 	}
-.events p{
+#upcoming_events p{
 	display:flex;
 	align-content:center;
 	justify-content:center;
@@ -149,22 +183,67 @@ img[src^='img/cyclops 1987 cover.png']{
 	margin-top:-10vw;
 	max-width:99vw;
 	}
+#past_events p{
+	display:flex;
+	align-content:center;
+	justify-content:center;
+	min-width:99vw;
+	font-size:300%;
+	margin-bottom:10px;
+	max-width:99vw;
+	}
 .event_header{
 	text-decoration: underline;
 	}
 .event_descrip{
 	text-align:center;
-	line-height:0.75;
-}
-.event_descrip h3{
-	line-height:0.2;
 }
 .event_descrip a[href]{
-	padding-bottom:10vh;
+	margin-bottom:10vh;
 }
+.contact p{
+	display:flex;
+	align-content:center;
+	justify-content:center;
+	min-width:30vw;
+	line-height:1.5;
+	margin:0 50% 2px 36%
+	}
+#contact_announcement{
+	font-size:250%;
+	line-height:2;
+	}
+.contact img[src^='img/contact fingers.png']{
+	margin-top:-20vh;
+}
+.socials a[href^='mailto:tritech@evergreen.edu']{
+	font-size:70%;
+	}
 footer{
 	text-align:center;
 	font-size:70%;
-	position:relative;
-	bottom:5px;
-	}
+	bottom:0;
+    position: relative;
+    width: 100%;
+    height: 13px;
+}
+
+@media screen (min-width: 601px){
+	*{
+  background-image: url("img/sidebanner.png"), url("img/sidebanner2.png");
+  background-size: 15vw 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top left, top right;
+}}
+
+@media screen (max-width: 600px){
+	*{
+  background-image: url("img/sidebanner.png"), url("img/sidebanner2.png");
+  background-size: 15vh 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top left, top right;
+}}
+	
+	

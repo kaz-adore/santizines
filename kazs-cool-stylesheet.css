@@ -1,0 +1,170 @@
+*{
+  font-family:Arial;
+  background-color:#f1fbff;
+  font-style:italic;
+  background-image: url("img/sidebanner.png"), url("img/sidebanner2.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top left, top right;
+  }
+
+nav{
+    box-shadow: inset 0 0 0 1000px rgba(193, 235, 255, 1);
+	background-color:#c1ebff;
+	border:#f6cae9 solid 8px;
+	border-radius:10px;
+	display:block;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-left:0.59em;
+	font-size:150%;
+	width:8rem;
+	max-width:50%;
+	max-height:10%;
+	color:black;
+	margin-left:3em;
+	box-sizing:border-box;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+	}
+nav a:link{
+   color:black;
+   text-decoration: none;
+       box-shadow: inset 0 0 0 1000px rgba(193, 235, 255, 1);
+   	background-color:#c1ebff;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-left:2px;
+	}
+nav a:visited{
+   color:black;
+       box-shadow: inset 0 0 0 1000px rgba(193, 235, 255, 1);
+   text-decoration: none;
+   	background-color:#c1ebff;
+	}
+nav a:hover{
+   color:#7d6dfe;
+       box-shadow: inset 0 0 0 1000px rgba(193, 235, 255, 1);
+   transition-duration:0.2s;
+   text-decoration: none;
+   	background-color:#c1ebff;
+	}
+nav a:active{
+   color:black;
+       box-shadow: inset 0 0 0 1000px rgba(193, 235, 255, 1);
+   text-decoration: none;
+   	background-color:#c1ebff;
+	overflow:hide;
+	}
+a[href^='about.html']{
+	padding-right:34%;
+	}
+a[href^='works.html']{
+	padding-right:28.5%;
+	}
+a[href^='blog.html']{
+	padding-right:49%;
+	}
+a[href^='events.html']{
+	padding-right:23%;
+	}
+a[href^='contact.html']{
+	padding-right:13.5%;
+	}
+.salad_left{
+	border:#555e49 solid 8px;
+	border-radius:10px;
+	height: 305px;
+	padding:10px;
+	width:60%;
+	margin:1.5em auto;
+	max-width:900px;
+	align-items:center;
+	margin-top:-10%;
+	}
+.cyclops_left{
+	border:#c1d9d5 solid 8px;
+	border-radius:10px;
+	height: 305px;
+	padding:10px;
+	width:60%;
+	margin:1.5em auto;
+	max-width:900px;
+	align-items:center;
+	}
+.title_left{
+	font-size:150%;
+	font-weight:bold;
+	float:right;
+	max-width:75%;
+	line-height:2;
+	}
+.cw_left{
+	font-size:80%;
+	float:right;
+	max-width:75%;
+}
+.blurb_left{
+	float:right;
+	max-width:75%;
+}
+img[src^='img/salad fingers cover.png']{
+	width: 22%;
+	height: 92%;
+	object-fit: cover;
+	border:#555e49 solid 2px;
+	}
+img[src^='img/cyclops 1987 cover.png']{
+	width: 22%;
+	height: 79%;
+	object-fit: cover;
+	border:black solid 2px;
+	}
+.construction p{
+	display:flex;
+	align-content:center;
+	justify-content:center;
+	min-width:99vw;
+	font-size:300%;
+	margin-bottom:10px;
+	margin-top:-10vw;
+	max-width:99vw;
+	}
+.construction img{
+	display:flex;
+	align-content:center;
+	justify-content:center;
+	min-width:30vw;
+	margin:0 50% 2px 36%
+	}
+.events p{
+	display:flex;
+	align-content:center;
+	justify-content:center;
+	min-width:99vw;
+	font-size:300%;
+	margin-bottom:10px;
+	margin-top:-10vw;
+	max-width:99vw;
+	}
+.event_header{
+	text-decoration: underline;
+	}
+.event_descrip{
+	text-align:center;
+	line-height:0.75;
+}
+.event_descrip h3{
+	line-height:0.2;
+}
+.event_descrip a[href]{
+	padding-bottom:10vh;
+}
+footer{
+	text-align:center;
+	font-size:70%;
+	position:relative;
+	bottom:5px;
+	}

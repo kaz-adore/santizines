@@ -128,10 +128,40 @@ a[href^='contact.html']{
 	max-width:900px;
 	align-items:center;
 	}
+.eggshells_left{
+	border:#e3d6c2 solid 8px;
+	border-radius:10px;
+	height: 305px;
+	padding:10px;
+	width:60%;
+	margin:1.5em auto;
+	max-width:900px;
+	align-items:center;
+	}
+.suburban_left{
+	border:black solid 8px;
+	border-radius:10px;
+	height: 305px;
+	padding:10px;
+	width:60%;
+	margin:1.5em auto;
+	max-width:900px;
+	align-items:center;
+	}
+.southern_left{
+	border:gray solid 8px;
+	border-radius:10px;
+	height: 305px;
+	padding:10px;
+	width:60%;
+	margin:1.5em auto;
+	max-width:900px;
+	align-items:center;
+	}	
 .title_left{
 	font-size:150%;
 	font-weight:bold;
-	float:right;
+	float:left;
 	max-width:75%;
 	line-height:2;
 	}
@@ -139,23 +169,51 @@ a[href^='contact.html']{
 	font-size:80%;
 	float:right;
 	max-width:75%;
+	margin-top:80px;
 }
-.blurb_left{
+.blurb_left_salad{
 	float:right;
 	max-width:75%;
+	margins:0 auto;
+}
+.blurb_left_cyclops{
+  float: right;
+  max-width: 75%;
+}
+.blurb_left_eggshells{
+  float: right;
+  max-width: 78%;
 }
 img[src^='img/salad fingers cover.png']{
-	width: 22%;
-	height: 92%;
+	width: 19%;
+	height: 5%;
 	object-fit: cover;
-	border:#555e49 solid 2px;
-	}
+	border: #555e49 solid 2px;
+	margin-left: 20px;
+}
 img[src^='img/cyclops 1987 cover.png']{
 	width: 22%;
 	height: 79%;
 	object-fit: cover;
 	border:black solid 2px;
 	}
+img[src^='img/eggshells cover.png']{
+	width: 19%;
+    object-fit: cover;
+    border: black solid 2px;
+}
+img[src^='img/suburban cover.png']{
+	width: 20%;
+	height:78%;
+    object-fit: cover;
+    border: black solid 2px;
+}
+img[src^='img/southern cover.png']{
+	width: 20%;
+	height:78%;
+    object-fit: cover;
+    border: black solid 2px;
+}
 .construction p{
 	display:flex;
 	align-content:center;
@@ -194,12 +252,15 @@ img[src^='img/cyclops 1987 cover.png']{
 	}
 .event_header{
 	text-decoration: underline;
+	font-size:160%;
 	}
 .event_descrip{
 	text-align:center;
+	font-size:180%;
 }
 .event_descrip a[href]{
 	margin-bottom:10vh;
+	font-size:80%;
 }
 .contact p{
 	display:flex;

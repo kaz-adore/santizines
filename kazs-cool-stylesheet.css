@@ -238,11 +238,20 @@ footer{
 
 @media (max-width: 900px){
 	*{
-  background-image: url("img/sidebanner.png"), url("img/sidebanner2.png");
   background-size: 10vh 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top left, top right;
-}}
-	
+}
+.contact p{
+	line-height:2;
+	font-size:209%
+	}
+.contact img[src^='img/contact fingers.png']{
+	margin-top:-5vh;
+	height:30vh;
+	width:70vw;
+}
+.socials a[href^='mailto:tritech@evergreen.edu']{
+	font-size:170%;
+	}
+}
+
 	
